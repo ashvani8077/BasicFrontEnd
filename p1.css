@@ -1,0 +1,59 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width:100%;
+    background-color: #dadada;
+    display: flex;
+}
+#left{
+    width: 80%;
+    height: 100%;
+}
+#right{
+    width: 20%;
+    height: 100%;
+}
+#left #ltop{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#left #lbottom{
+    width: 100%;
+    height: 30%;
+    background-color: #222;
+    padding: 100px 200px;
+}
+
+
+#right #rtop{
+    width: 100%;
+    height: 70%;
+    background-color:#fff;
+}
+#right #rbottom{
+    width: 100%;
+    height: 30%;
+    background-color:#dadada;
+}
+#lbtmcontent{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#lc1{
+    width: 45%;
+    height: 100%;
+    background-color: green;
+}
+#lc2{
+    width: 45%;
+    height: 100%;
+    background-color: pink;
+}

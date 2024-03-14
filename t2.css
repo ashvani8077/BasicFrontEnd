@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 8%;
+}
+
+#nav i{
+    color: rgb(15, 114, 235);
+    position: absolute;
+    font-size: 3.5vw;
+    left: 8%;
+}
+
+#nav h1{
+    position: absolute;
+    color: rgb(15, 114, 235);
+    font-size: 2.4vw;
+    left: 12%;
+    top: 1%;
+}
+#nav #link{
+    position: absolute;
+    left: 30%;
+    top: 4%;
+}
+
+#link{
+    display: flex;
+    gap: 50px;
+}
+
+#link a{
+    font-size: 1.3vw;
+    top: 3%;
+    color: rgb(75, 73, 70);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:nth-child(1){
+    color: rgb(15, 114, 235);
+}
+
+#nav #butt{
+    right: 0;
+    left: 90%;
+}
+
+#butt button{
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+button{
+    font-size: 30px;
+    border: 2px solid transparent;
+    width: 150px;
+    border-radius:20px 20px 20px 20px;
+    cursor: pointer;
+}
+button:nth-child(2){
+    background-color:rgb(32, 130, 160) ;
+    color: white;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#nav{
+    position:absolute;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav i{
+    font-size: 2.5vw;
+    left: 3%;
+    position: absolute;
+    color: rgb(32, 130, 160);
+}
+
+#nav h3{
+    font-size: 2.5vw;
+    left: 6.4%;
+    position: absolute;
+}
+
+#nav #link{
+    position: absolute;
+    left: 25%;
+}
+
+#link{
+    display: flex;
+    gap: 70px;
+}
+
+#link a{
+    font-size: 1.5vw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(141, 142, 143);
+}
+a:nth-child(1){
+    color: rgb(32, 130, 160);
+}
+
+#nav #button{
+    position: absolute;
+    right: 2%;
+}
+
+#button{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button button{
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+button{
+    font-size: 30px;
+    border: 2px solid transparent;
+    width: 150px;
+    border-radius:20px 20px 20px 20px;
+    cursor: pointer;
+}
+button:nth-child(2){
+    background-color:rgb(32, 130, 160) ;
+    color: white;
+}
+
+a:hover{
+    color: black;
+    background-color: rgb(180, 137, 137);
+    border: 3px solid yellow;
+}
+
+
+#slogan {
+    position: absolute;
+    margin-top: 60px;
+    animation-name: sl;
+    animation-duration: 4s; /* Adjust the duration as needed */
+    animation-timing-function: ease-in-out; /* Smooth acceleration and deceleration */
+    animation-direction: alternate; /* Reverse the animation direction after each iteration */
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes sl {
+    0% {
+        left: 0;
+        color: black;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: rgb(169, 124, 9);
+    }
+    60%{
+        color: green;
+    }
+    80%{
+        color: darkslategray;
+    }
+    100% {
+        left: calc(100% - 540px); /* Adjust the distance to move to the right */
+        color: red;
+    }
+}
+
+#left{
+    position: relative;
+    top:10%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+#left h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}

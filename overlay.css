@@ -1,0 +1,12 @@
+body{
+    height:100%;
+    width:100%;
+    background-image: url("s.jpg");
+    background-size: cover;
+}
+#main{
+    height: 1000px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.068);
+    
+}

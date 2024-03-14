@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1522743791393-522312deeebf?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 0%;
+    background-size: cover;
+    position: relative;
+}
+
+#nav{
+    padding: 0 80px;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav #nlinks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#nav i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(249, 246, 246);
+}
+
+#nlinks{
+    display: flex;
+    gap: 50px;
+}
+
+#nlinks a{
+    position: relative;
+    font-size: 13px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+
+#nlinks #activate::before{
+content:"" ;
+width: 30%;
+height: 2px;
+background-color: #fff;
+position: absolute;
+top: -5px;
+left: 20px;
+transform: translate(-50%,0);
+}
+
+#nav h5{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%,-50%);
+    width: 40%;
+    height: 300px;
+    color: #fff;
+}
+
+#text h6{
+    display: flex;
+}
+
+#text h6 span{
+    line-height: 25px;
+    font-size: 30px;
+}
+
+#text h1{
+    margin-top: 15px;
+    font-size: 90px;
+    line-height: 1;
+}
+
+#lineandtext{
+    display: flex;
+}
+
+#line{
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#lineandtext p{
+    width: 50%;
+    font-size: 12px;
+    line-height: 30px;
+
+}
+
+#bottom{
+    width: 70%;
+    height: 20%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -50px;
+    right: -50px;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
